@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | QR code component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap">
+
+    <style>
+      :root {
+        --text-size: 16px;
+        --header-size: 22px;
+        --small-text-size: 11px;
+
+        --card-bg-color: rgb(255, 255, 255);
+        --page-bg-color: rgb(214, 226, 240);
+        --text-color: rgb(123, 135, 157);
+        --header-color: rgb(31, 50, 82);
+        --link-color: rgb(62, 82, 163);
+        --qr-border-color: rgb(237, 255, 255);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .body {
+        background-color: var(--page-bg-color);
+        font-family: 'Outfit', Arial, Helvetica, sans-serif;
+        position: relative;
+      }
+      .body__qr-card {
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+      }
+      .qr-card {
+        width: 320px;
+        height: 500px;
+        background-color: var(--card-bg-color);
+        border-radius: 16px;
+        text-align: center;
+        padding: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+      }
+      .qr { 
+        width: 288px;
+        height: 288px;
+        border-radius: 8px;
+        border: 1px solid var(--qr-border-color);
+      }  
+      .qr-card__qr {
+        margin-bottom: 16px;
+      }
+      .card-header {
+        color: var(--header-color);
+        font-size: var(--header-size);
+        font-weight: 700;
+      }
+      .qr-card__card-header {
+        margin-bottom: 28px;
+      }
+      p.card-text {
+        color: var(--text-color);
+        font-size: var(--text-size);
+        font-weight: 400;
+      }
+      .qr-card__card-text {
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div class="body__qr-card qr-card">
+      <img class="qr-card__qr qr" src="images/image-qr-code.png">
+      <p class="qr-card__card-header card-header">Improve your front-end skills by building projects</p>
+      <p class="qr-card__card-text card-text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>   
+  </body>
+</html>
