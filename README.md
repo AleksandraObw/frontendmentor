@@ -2,8 +2,8 @@
 
 #### Newbie level #
 1. **[QR Code Component](https://github.com/AleksandraObw/frontendmentor/1newbie-qr-code-component-main)**
-2. **[Results summary component]**
-3. **[Product preview card component]**
+2. **[Product preview card component](https://github.com/AleksandraObw/frontendmentor/tree/main/2newbie-product-preview-card-component-main)**
+3. **[Results summary component]**
 4. **[Interactive rating component]**
 5. **[NFT preview card component]**
 6. **[Order summary component]**
