@@ -1,9 +1,9 @@
 # frontendmentor.io challenges' solutions
 
 #### Newbie level #
-1. **[QR Code Component](https://github.com/AleksandraObw/frontendmentor/1newbie-qr-code-component-main)**
-2. **[Product preview card component](https://github.com/AleksandraObw/frontendmentor/2newbie-product-preview-card-component-main)**
-3. **[Intro component with sign-up form](https://github.com/AleksandraObw/frontendmentor/3newbie-intro-component-with-signup-form-master)**
+1. **[QR Code Component](https://github.com/AleksandraObw/frontendmentor/tree/main/1newbie-qr-code-component-main)**
+2. **[Product preview card component](https://github.com/AleksandraObw/frontendmentor/tree/main/2newbie-product-preview-card-component-main)**
+3. **[Intro component with sign-up form](https://github.com/AleksandraObw/frontendmentor/tree/main/3newbie-intro-component-with-signup-form-master)**
 4. **[Results summary component]**
 5. **[Interactive rating component]**
 6. **[NFT preview card component]**
