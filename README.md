@@ -21,3 +21,7 @@
 18. **[Ping single column coming soon page]**
 19. **[Huddle landing page with a single introductory section]**
 
+
+#### Junior level #
+
+1. **[Advice generator app](https://github.com/AleksandraObw/frontendmentor/tree/main/1junior-advice-generator-app-main)** 
