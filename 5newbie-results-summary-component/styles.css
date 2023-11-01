@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root {
+    --border-radius-big: 30px;
+    --border-radius-small: 12px;
+
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+    --white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-gray-blue: hsl(224, 30%, 27%);
+    --black-blue: hsl(228, 18%, 26%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 16px;
+}
+
+.body__card {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 740px;
+    height: 512px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-shadow: 5px 5px 25px -5px rgba(34, 60, 80, 0.6);
+    -moz-box-shadow: 5px 5px 25px -5px rgba(34, 60, 80, 0.6);
+    box-shadow: 5px 5px 25px -5px rgba(34, 60, 80, 0.6);
+    border-radius: var(--border-radius-big);
+}
+
+.card__left-part {
+    width: 370px;
+} 
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: var(--border-radius-big);
+    padding: 46px 60px 60px 60px;
+}
+
+.result-header {
+    color: var(--light-lavender);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.left-part__score {
+    width: 200px;
+    height: 200px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1em;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));;
+}
+
+.current {
+    color: var(--white);
+    font-size: 3.2em;
+    font-weight: 800;
+}
+
+.full {
+    color: var(--light-lavender);
+}
+
+.result {
+    color: var(--white);
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+.description {
+    color: var(--light-lavender);
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.card__right-part {
+    width: 370px;
+} 
+
+.right-part {
+    padding: 46px 40px;
+    border-radius: var(--border-radius-big);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.summary {
+    font-size: 1.5em;
+    color: var(--black-blue);
+    text-align: left;
+    font-weight: 700;
+}
+
+.categories {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.cat-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 58px;
+    padding: 17px;
+    border-radius: var(--border-radius-small);
+}
+
+.cat-left {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+}
+
+.cat-right {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5em;
+}
+
+
+.reaction {
+    background-color: hsl(0, 100%, 97%);
+    color: var(--light-red);
+}
+
+.memory {
+    background-color: hsl(39, 100%, 97%);
+    color: var(--orangey-yellow);
+}
+.verbal {
+    background-color: hsl(166, 100%, 97%);
+    color: var(--green-teal);
+}
+.visual {
+    background-color: hsl(234, 85%, 97%);
+    color: var(--cobalt-blue);
+}
+
+.right-part__button {
+    width: 100%;
+    height: 58px;
+}
+.button {
+    padding: 1.25em;
+    background-color: var(--dark-gray-blue);
+    color: var(--white);
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: var(--border-radius-big);
+    border: none;
+}
+.button:hover {
+    background-color: var(--cobalt-blue);
+    color: var(--pale-blue);
+    cursor: pointer;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 750px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0;
+        width: 100vw;
+        height: 100vh;
+        min-height: 800px;
+    }
+    .left-part {
+        width: 100%;
+        height: 45vh;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        padding: 28px 60px 40px 28px;
+    } 
+    .right-part {
+        width: 100%;
+        height: 55vh;
+        padding: 28px;
+    } 
+    .score {
+        width: 140px;
+        height: 140px;
+        row-gap: 0.1em;
+    }
+}
