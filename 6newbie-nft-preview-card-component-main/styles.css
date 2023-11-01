@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --soft-blue: hsl(213, 55%, 71%);
+    --cyan: rgb(0, 255, 247);
+    --dark-blue-main: hsl(217, 54%, 11%);
+    --dark-blue-card: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: var(--dark-blue-main);
+}
+.card {
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    background-color: var(--dark-blue-card);
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.image {
+    border-radius: 8px;
+    width: 302px;
+    height: 302px;
+    object-fit: cover;
+}
+.nft {
+    position: relative;
+}
+.view {
+    border-radius: 8px;
+    width: 302px;
+    height: 302px;
+    background-color: rgba(0, 255, 247, .5);
+    object-fit: scale-down;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    transition: all ease-in-out;
+}
+.nft:hover .view {
+    cursor: pointer;
+    display: block;
+}
+.title {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+}
+.title:hover {
+    cursor: pointer;
+    color: var(--cyan);
+}
+.description {
+    color: var(--soft-blue);
+    font-size: 16px;
+    letter-spacing: 0.07em;
+}
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.price,
+.date {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+    align-items: center;
+}
+.price-text {
+    color: var(--cyan);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.date-text {
+    color: var(--soft-blue);
+    font-size: 14px;
+}
+.credits {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 16px;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.bottom::before {
+    content: "";
+    width: 302px;
+    border: 1px solid var(--dark-blue-line);
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+.credits-text {
+    color: var(--soft-blue);
+    font-size: 14px;
+}
+a.name:visited {
+    text-decoration: none;
+    color: var(--white);
+}
+a.name {
+    text-decoration: none;
+    color: var(--white);
+}
+.name:hover {
+    cursor: pointer;
+    color: var(--cyan);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
