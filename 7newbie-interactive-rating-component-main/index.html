@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <div class="body__component component">
+
+    <div class="component__rate-card rate-card" id="rate-card">
+      <div class="rate-card__star-icon star-icon btn"></div>
+      <h2 class="rate-card__header header">How did we do?</h2>
+      <p class="rate-card__text text">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <form class="rate-card__form form" action="" method="get">
+
+        <div class="form__ratings ratings">
+          <div class="form__btn btn">
+            <input class="rate-card__radio radio" type="radio" name="star" id="star1" value="1">
+            <label for="star1">1</label>
+          </div>
+          <div class="form__btn btn">
+            <input class="rate-card__radio radio" type="radio" name="star"  id="star2" value="2">
+            <label for="star2">2</label>
+          </div>  
+          <div class="form__btn btn">
+            <input class="rate-card__radio radio" type="radio" name="star"  id="star3" value="3">
+            <label for="star3">3</label>
+          </div>
+          <div class="form__btn btn">
+            <input class="rate-card__radio radio" type="radio" name="star"  id="star4" value="4">
+            <label for="star4">4</label>
+          </div>
+          <div class="form__btn btn">
+            <input class="rate-card__radio radio" type="radio" name="star"  id="star5" value="5">
+            <label for="star5">5</label>
+          </div>    
+        </div>  
+    
+        <input class="rate-card__button button" type="submit" value="Submit" id="button-submit">
+      </form> 
+      <p class="rate-card__error error hidden" id="error">Please rate us!</p>
+    </div>
+
+    <div class="component__thanks-card hidden" id="thanks-card">
+      <img class="thanks-card__image image" src="images/illustration-thank-you.svg" alt="Thank you for rating us!">
+      <p class="thanks-card__you-rated you-rated" id="your-rating">You voted 5<p>
+      <h2 class="thanks-card__header header">Thank you!</h2>
+      <p class="thanks-card__text text thanks-text">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p> 
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
