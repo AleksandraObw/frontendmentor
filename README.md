@@ -6,6 +6,7 @@
 3. **[Intro component with sign-up form](https://github.com/AleksandraObw/frontendmentor/tree/main/3newbie-intro-component-with-signup-form-master)**
 4. **[Profile card component](https://github.com/AleksandraObw/frontendmentor/tree/main/4newbie-profile-card-component-main)**
 5. **[Results summary component](https://github.com/AleksandraObw/frontendmentor/tree/main/5newbie-results-summary-component)**
+6. **[NFT Preview card component](https://github.com/AleksandraObw/frontendmentor/tree/main/6newbie-nft-preview-card-component-main)**
 
 #### Junior level #
 
