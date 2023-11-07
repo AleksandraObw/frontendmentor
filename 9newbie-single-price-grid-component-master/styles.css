@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap');
+
+:root {
+    --cyan: hsl(179, 61%, 44%);
+    --light-cyan: hsl(179, 47%, 52%);
+    --white-cyan: hsl(180, 100%, 88%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    --gray: hsl(222, 11%, 77%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', Arial, sans-serif;
+    position: relative;
+    background-color: var(--light-gray);
+}
+
+.body__container {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 640px;
+    height: 480px;
+    display: grid;
+    grid-template-areas:
+    'A A'
+    'B C';
+    gap: 0;
+    border-radius: 16px;
+}
+
+.block {
+    padding: 45px 40px 40px 40px;
+}
+
+.container__info-block {
+    grid-area: A;
+}
+.info-block {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    height: 220px;
+}
+.info-header {
+    color: var(--light-cyan);
+    font-weight: 700;
+}
+.info-deal {
+    color: var(--bright-yellow);
+    font-weight: 400;
+}
+.info-text {
+    color: var(--gray);
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.container__signup-block {
+    grid-area: B;
+}
+
+.signup-block {
+    background-color: var(--cyan);
+    border-bottom-left-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 260px;
+    width: 320px;
+}
+
+.signup-header {
+    color: var(--white);
+    font-weight: 700;
+}
+.signup-price {
+    color: #74dede;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-text {
+    color: var(--white-cyan);
+    letter-spacing: 0.05em;
+    font-family: 'Karla', Arial, sans-serif;
+}
+
+.signup-button {
+    width: 100%;
+    height: 3em;
+    border-radius: 0.5em;
+    color: var(--white);
+    background-color: var(--bright-yellow);
+    border: 2px solid var(--bright-yellow);
+    border: none;
+    font-family: 'Karla', Arial, sans-serif;
+    transition: all .7s;
+}
+.signup-button:hover {
+    background-color: var(--cyan);
+    border: 2px solid var(--bright-yellow);
+    cursor: pointer;
+}
+
+span {
+    font-weight: 700;
+    color: var(--white);
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+
+.whyus-block {
+    grid-area: C;
+    background-color: var(--light-cyan);
+    border-bottom-right-radius: 16px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 320px;
+}
+.whyus-header {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.whyus-list {
+    list-style: none;
+    color: var(--white);
+    line-height: 1.5em;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 645px) {
+    .container {
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        border-radius: 0.5em;
+    }
+
+    .block {
+        width: 100%;
+    }
+
+    .info-block {
+        padding: 35px 24px;
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+        height: 268px;
+    }
+
+    .signup-block {
+        padding: 28px 24px 24px 24px;
+        border-radius: 0;
+        height: 228px;
+    }
+
+    .whyus-block {
+        padding: 28px 26px;
+        border-bottom-left-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+        height: 228px;
+    }
+
+    .info-header {
+        font-size: 16px;
+    }
+    .info-deal,
+    .info-text,
+    .signup-price,
+    .signup-text,
+    .signup-button {
+        font-size: 14px;
+    }
+
+    .whyus-list {
+        font-size: 12px;
+    }
+}
