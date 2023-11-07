@@ -8,6 +8,8 @@
 5. **[Results summary component](https://github.com/AleksandraObw/frontendmentor/tree/main/5newbie-results-summary-component)**
 6. **[NFT Preview card component](https://github.com/AleksandraObw/frontendmentor/tree/main/6newbie-nft-preview-card-component-main)**
 7. **[Interactive raiting component](https://github.com/AleksandraObw/frontendmentor/tree/main/7newbie-interactive-rating-component-main)**
+8. **[Order summary component](https://github.com/AleksandraObw/frontendmentor/tree/main/8newbie-order-summary-component-main)**
+9. **[Single price grid component](https://github.com/AleksandraObw/frontendmentor/tree/main/9newbie-single-price-grid-component-master)**
 
 #### Junior level #
 
