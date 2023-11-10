@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+    <div class="body__component component">
+      <div class="component__balance-part balance-part">
+        <div class="component__balance-text balance-text">
+          <p class="balance-text__title title">My balance</p>
+          <p class="balance-text__amount amount">$921.48</p>
+        </div>
+        <img class="balance-part__logo logo" src="images/logo.svg" alt="Component logo">
+      </div>
+      <div class="component__spends-part spends-part">
+        <h2 class="spends-part__header header">
+            Spending - Last 7 days
+        </h2>
+        <div class="spends-part__chart chart">
+            <ul class="chart__list list" id="list">
+            </ul>
+        </div>
+        <div class="spends-part__stats stats">
+          <div class="stats__underline underline">
+            <div class="stats__this-month this-month">
+              <p class="this-month__title this-month-title">Total this month</p>
+              <p class="this-month__amount this-month-amount">$478.33</p>
+            </div>
+            <div class="stats__last-month last-month">
+              <p class="last-month__amount last-month-amount">+2.4%</p>
+              <p class="last-month__title last-month-title">from last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
