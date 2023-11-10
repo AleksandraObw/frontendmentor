@@ -15,3 +15,4 @@
 #### Junior level #
 
 1. **[Advice generator app](https://github.com/AleksandraObw/frontendmentor/tree/main/1junior-advice-generator-app-main)** HTML/CSS/JS
+2. **[Expenses chart ](https://github.com/AleksandraObw/frontendmentor/tree/main/2junior-expenses-chart-component-main)** HTML/CSS/JS
