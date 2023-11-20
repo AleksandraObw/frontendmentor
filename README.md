@@ -13,6 +13,7 @@
 10. **[FAQ Accordion card](https://github.com/AleksandraObw/frontendmentor/tree/main/10newbie-faq-accordion-card-main)** HTML/CSS/JS
 11. **[Stats preview card component](https://github.com/AleksandraObw/frontendmentor/tree/main/11newbie-stats-preview-card-component-main)** HTML/CSS
 12. **[Four card feature section](https://github.com/AleksandraObw/frontendmentor/tree/main/12newbie-four-card-feature-section-master)** HTML/CSS
+13. **[3 column preview card component](https://github.com/AleksandraObw/frontendmentor/tree/main/13newbie-3-column-preview-card-component-main)** HTML/CSS
 
 #### Junior level #
 
