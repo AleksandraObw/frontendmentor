@@ -14,6 +14,7 @@
 11. **[Stats preview card component](https://github.com/AleksandraObw/frontendmentor/tree/main/11newbie-stats-preview-card-component-main)** HTML/CSS
 12. **[Four card feature section](https://github.com/AleksandraObw/frontendmentor/tree/main/12newbie-four-card-feature-section-master)** HTML/CSS
 13. **[3 column preview card component](https://github.com/AleksandraObw/frontendmentor/tree/main/13newbie-3-column-preview-card-component-main)** HTML/CSS
+14. **[Article preview component](https://github.com/AleksandraObw/frontendmentor/tree/main/14newbie-article-preview-component-master)** HTML/CSS/JS
 
 #### Junior level #
 
