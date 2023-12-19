@@ -16,6 +16,7 @@
 13. **[3 column preview card component](https://github.com/AleksandraObw/frontendmentor/tree/main/13newbie-3-column-preview-card-component-main)** HTML/CSS
 14. **[Article preview component](https://github.com/AleksandraObw/frontendmentor/tree/main/14newbie-article-preview-component-master)** HTML/CSS/JS
 15. **[FAQ accordion](https://github.com/AleksandraObw/frontendmentor/tree/main/15newbie-faq-accordion-main)** HTML/CSS
+16. **[Ping coming soon page](https://github.com/AleksandraObw/frontendmentor/tree/main/16newbie-ping-coming-soon-page-master)** HTML/CSS/JS
 
 #### Junior level #
 
