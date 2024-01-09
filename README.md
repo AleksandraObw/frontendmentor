@@ -17,7 +17,8 @@
 14. **[Article preview component](https://github.com/AleksandraObw/frontendmentor/tree/main/14newbie-article-preview-component-master)** HTML/CSS/JS
 15. **[FAQ accordion](https://github.com/AleksandraObw/frontendmentor/tree/main/15newbie-faq-accordion-main)** HTML/CSS
 16. **[Ping coming soon page](https://github.com/AleksandraObw/frontendmentor/tree/main/16newbie-ping-coming-soon-page-master)** HTML/CSS/JS
-17. **[Base apparel coming soon](https://github.com/AleksandraObw/frontendmentor/tree/main/17newbie-base-apparel-coming-soon-master)** HTML/CSS/JS 
+17. **[Base apparel coming soon](https://github.com/AleksandraObw/frontendmentor/tree/main/17newbie-base-apparel-coming-soon-master)** HTML/CSS/JS
+18. **[Blog preview card](https://github.com/AleksandraObw/frontendmentor/tree/main/18newbie-blog-preview-card-main)** HTML/CSS
 
 #### Junior level #
 
