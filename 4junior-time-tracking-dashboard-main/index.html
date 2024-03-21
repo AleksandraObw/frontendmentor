@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+  <div class="component">
+
+    <div class="info-part">
+      <div class="name-part">
+        <img class="avatar" src="images/image-jeremy.png">
+        <div class="text-box">
+          <p class="text">Report for</p>
+          <p class="name">Jeremy Robson</p>
+        </div>
+      </div>
+      <div class="time-part">
+        <form class="ranges">
+          <input type="radio" name="time-range" id="daily" value="daily" checked="checked">
+          <label for="daily">Daily</label>
+          <input type="radio" name="time-range" id="weekly" value="weekly">
+          <label for="weekly">Weekly</label>
+          <input type="radio" name="time-range" id="monthly" value="monthly">
+          <label for="monthly">Monthly</label>
+        </form>  
+      </div>
+    </div>
+
+    <div class="table-part">
+      <ul class="list" id="items-list">
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+<script src="/script.js"></script>
+</body>
+</html>
