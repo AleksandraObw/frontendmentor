@@ -21,6 +21,7 @@
 18. **[Blog preview card](https://github.com/AleksandraObw/frontendmentor/tree/main/18newbie-blog-preview-card-main)** HTML/CSS
 19. **[Social proof section](https://github.com/AleksandraObw/frontendmentor/tree/main/19newbie-social-proof-section-master)** HTML/CSS
 20. **[Social links profile](https://github.com/AleksandraObw/frontendmentor/tree/main/20newbie-social-links-profile-main)** HTML/CSS
+21. **[Huddle landing page with single introductory section](https://github.com/AleksandraObw/frontendmentor/tree/main/21newbie-huddle-landing-page-with-single-introductory-section-master)** HTML/CSS
 
 #### Junior level #
 
